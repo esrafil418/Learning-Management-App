@@ -1,3 +1,9 @@
+import NonDashboardNavbar from "@/components/NonDashboardNavbar";
+
 export default function Home() {
-	return <div>Hello Again</div>;
+	return (
+		<div className="nondashboard-layout">
+			<NonDashboardNavbar />
+		</div>
+	);
 }
