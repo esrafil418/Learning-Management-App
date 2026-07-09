@@ -7,7 +7,8 @@ export default function CourseCardSearch({
 	onClick,
 }: SearchCourseCardProps) {
 	return (
-		<div
+		<button
+        type="button"
 			onClick={onClick}
 			className={`course-card-search group ${
 				isSelected
@@ -44,6 +45,6 @@ export default function CourseCardSearch({
 					</div>
 				</div>
 			</div>
-		</div>
+		</button>
 	);
 }
