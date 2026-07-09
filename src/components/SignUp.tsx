@@ -1,3 +1,5 @@
+"use client";
+
 import { SignUp, useUser } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 import { useSearchParams } from "next/navigation";
