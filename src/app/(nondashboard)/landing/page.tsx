@@ -51,6 +51,8 @@ export default function Landing() {
 		router.push(`/search?id=${courseId}`);
 	};
 
+	if (isLoading) return <LoadingSkeleton />;
+
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
