@@ -2,7 +2,7 @@ import { UserProfile } from "@clerk/nextjs";
 import Header from "@/components/Header";
 import { dark } from "@clerk/themes";
 
-export default function UserProfilePage() {
+export default function TeacherProfilePage() {
 	return (
 		<>
 			<Header title="Profile" subtitle="View your Profile" />
